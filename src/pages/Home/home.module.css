@@ -1,0 +1,13 @@
+.introductionHeader {
+	text-align: center;
+}
+
+.imgColumn {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	overflow: auto;
+}
+
+.headshot {
+}

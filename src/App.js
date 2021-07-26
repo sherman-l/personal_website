@@ -1,16 +1,18 @@
-import logo from './logo.svg';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import PersonalNavbar from './components/Navbar';
-import About from './pages/about.js';
+import DarkNavbar from './components/Navbar';
+import Home from './pages/Home/home.js';
+import Projects from './pages/Projects/projects.js'
+import About from './pages/About';
 import './App.css';
 
 
 function App() {
   return (
     <Router>
-      <PersonalNavbar />
+      <DarkNavbar/>
       <Switch>
-        <Route path='/' exact component={About} />
+        <Route path='/' exact component={Home} />
+        <Route path='/projects' exact component={Projects} />
       </Switch>
     </Router>
   );
