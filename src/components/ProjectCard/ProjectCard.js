@@ -1,23 +1,29 @@
 import { Card } from 'react-bootstrap';
 import styles from './projectCard.module.css'
-let imageUrl = 'logo512.png';
 const ProjectCard = (props) => {
 	return (
-		<Card bg="secondary p-2" className={styles.projectCardStyle}>
-			<Card.Img 
-				variant="top" 
-				src={`/project_images/${imageUrl}`} 
-				className={styles.projectCardImg}/>
-			<br/>
-			<Card.Body>
-				<Card.Title>
-					Test Title
-				</Card.Title>
-				<Card.Text>
-					Example card
-				</Card.Text>
-			</Card.Body>
-		</Card>
+		<a href={`${props.github}`} className={`${styles.linkNoStyle} text-white`}>
+			<Card bg="secondary p-2" className={styles.projectCardStyle}>
+				<Card.Img 
+					variant="top" 
+					src={`./project_images/${props.img}`} 
+					className={styles.projectCardImg}/>
+				<Card.Body>
+					<Card.Title>
+						{props.title}
+					</Card.Title>
+					<Card.Text>
+						{props.description}
+					</Card.Text>
+					<Card.Title>
+						Technologies
+					</Card.Title>
+					<Card.Text>
+						{props.technologies}
+					</Card.Text>
+				</Card.Body>
+			</Card>
+		</a>
 	)
 }
 

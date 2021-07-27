@@ -1,0 +1,17 @@
+[
+		{
+			"title": "TK Counter Discord Bot",
+			"img": "discord_banner.png",
+			"description" : "A discord bot created to help me and my friends count and rank who has team killed the most on FPS games. I came up with the idea for this bot after seeing how editing our tracking was before, which was editing a single pinned post on discord. This bot is written in Python using the discord.py module and stores team kill records for each user in a JSON file. The bot supports both English and Japanese.",
+			"technologies": "Python, discord.py, JSON",
+			"github": "https://github.com/sherman-l/team_kill_count_bot"
+		},
+		{
+			"title": "Mock Course Registration Website",
+			"img": "course_registration.jpg",
+			"description" : "A website created with a friend as part of our final project for our web development course. I was tasked with implementing the RESTful API endpoints using Node.JS/Express. I also implemented authentication for requests through usage of JSON Web Tokens.",
+			"technologies" : "Javascript, Node.JS, Express, HTML, CSS, JSON Web Token",					
+			"github": "https://github.com/jeffreyh93/4537_TermProject"
+		}
+]
+

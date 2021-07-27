@@ -33,7 +33,7 @@ const Home = () => {
 					<div className={`text-secondary ${styles.aboutDiv}`}>
 						<p>
 							I am a recent graduate from the Computer Systems Technology program at the British Columbia Institute of Technology. 
-							During school, I've learned and used Javascript, Java, Node.JS and C to complete school projects. As side <a href="/projects">projects</a>, I dabbled a bit in Python 
+							At school, I've used Javascript, Java, Node.JS and C to complete school projects. For side <a href="/projects">projects</a>, I dabbled a bit in Python 
 							to create a discord bot for me and my friends, and React for this website. I enjoy programming and the process of creating something out of
 							nothing.
 						</p>

@@ -1,19 +1,36 @@
 import React from 'react';
 import ProjectCard from '../../components/ProjectCard/ProjectCard.js'
-import { CardColumns } from 'react-bootstrap'
+import { CardColumns, Container } from 'react-bootstrap'
+import projectJson from './projects.json'
 
 const Projects = () => {
 	return (
-		<CardColumns>
-			{iterateProjects()}
-		</CardColumns>
+		<>
+			<Container>
+				<h1>
+					Projects
+				</h1>
+				<div>
+					Below are
+				</div>
+			</Container>
+			<hr/>
+			<CardColumns>
+				{iterateProjects()}
+			</CardColumns>
+		</>
 	)
 }
 
 const iterateProjects = () => {
-	let i = [1,2,3,4];
-	let projectList = i.map((item) => {
-		return <ProjectCard/>
+	let projectList = projectJson.map((project) => {
+		return <ProjectCard 
+			title={project.title} 
+			img={project.img} 
+			description={project.description} 
+			github={project.github}
+			technologies={project.technologies}
+			/>
 	})
 	return projectList
 }

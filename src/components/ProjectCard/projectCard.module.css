@@ -2,10 +2,32 @@
 	width: 60vw;
 	height: auto;	
 	margin: 2vh auto 0 auto;
+	transition: width 0.5s;
+	-webkit-transition: width 0.5s;
+}
+
+.projectCardStyle:hover {
+	width: 62vw;
 }
 
 .projectCardImg {
 	width: auto;
-	height: 10vh;
+	height: 130px;
 	object-fit: cover;
+}
+
+.linkNoStyle:hover {
+	text-decoration: none;
+}
+
+.linkNoStyle:visited {
+	text-decoration: none;
+}
+
+.linkNoStyle:link {
+	text-decoration: none;
+}
+
+.linkNoStyle:active {
+	text-decoration: none;
 }

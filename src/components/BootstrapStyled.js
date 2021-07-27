@@ -1,5 +1,5 @@
 import styled  from 'styled-components'
-import { Container, Navbar } from 'react-bootstrap'
+import { Container, Navbar} from 'react-bootstrap'
 
 export const PageContainer = styled(Container)`
 	width: 100%;
