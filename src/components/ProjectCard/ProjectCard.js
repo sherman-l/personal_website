@@ -10,7 +10,7 @@ const ProjectCard = (props) => {
 					className={styles.projectCardImg}/>
 				<Card.Body>
 					<Card.Title>
-						{props.title}
+						{props.title + " (" + props.type + ")"}
 					</Card.Title>
 					<Card.Text>
 						{props.description}

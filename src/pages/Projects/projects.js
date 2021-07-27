@@ -30,7 +30,8 @@ const iterateProjects = () => {
 			description={project.description} 
 			github={project.github}
 			technologies={project.technologies}
-			/>
+			type={project.type}
+		/>
 	})
 	return projectList
 }
