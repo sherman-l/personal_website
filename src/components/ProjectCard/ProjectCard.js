@@ -2,8 +2,8 @@ import { Card } from 'react-bootstrap';
 import styles from './projectCard.module.css'
 const ProjectCard = (props) => {
 	return (
-		<a href={`${props.github}`} className={`${styles.linkNoStyle} text-white`}>
-			<Card bg="secondary p-2" className={styles.projectCardStyle}>
+		<Card bg="secondary" className={`${styles.projectCardStyle}`}>
+			<a href={`${props.github}`} className={`${styles.linkNoStyle} text-white`}>
 				<Card.Img 
 					variant="top" 
 					src={`./project_images/${props.img}`} 
@@ -22,8 +22,8 @@ const ProjectCard = (props) => {
 						{props.technologies}
 					</Card.Text>
 				</Card.Body>
-			</Card>
-		</a>
+			</a>
+		</Card>
 	)
 }
 

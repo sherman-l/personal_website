@@ -45,17 +45,6 @@ const Home = () => {
 					</div>
 				</Row>
 				<hr/>
-				<Row>
-					<div className={`${styles.externalDiv}`}>
-						<a href="https://www.linkedin.com/in/shermanlok/">
-							<img src={linkedinLogo} alt="My LinkedIn Profile" className={`${styles.logo}`}/>
-						</a>
-						<a href="https://github.com/sherman-l">
-							<img src={githubLogo} alt="My Github Profile" className={`${styles.logo}`}/>
-						</a>
-					</div>
-
-				</Row>
 			</PageContainer>
 		</>
 	)

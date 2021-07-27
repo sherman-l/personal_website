@@ -1,5 +1,5 @@
 .projectCardStyle {
-	width: 60vw;
+	width: 50vw;
 	height: auto;	
 	margin: 2vh auto 0 auto;
 	transition: width 0.5s;
@@ -7,11 +7,11 @@
 }
 
 .projectCardStyle:hover {
-	width: 62vw;
+	width: 52vw;
 }
 
 .projectCardImg {
-	width: auto;
+	width: 100%;
 	height: 130px;
 	object-fit: cover;
 }

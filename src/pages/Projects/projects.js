@@ -6,18 +6,10 @@ import projectJson from './projects.json'
 const Projects = () => {
 	return (
 		<>
-			<Container>
-				<h1>
-					Projects
-				</h1>
-				<div>
-					Below are
-				</div>
-			</Container>
-			<hr/>
 			<CardColumns>
 				{iterateProjects()}
 			</CardColumns>
+			<hr/>
 		</>
 	)
 }
