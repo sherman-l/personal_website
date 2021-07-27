@@ -1,9 +1,9 @@
 import styled  from 'styled-components'
 import { Container, Navbar } from 'react-bootstrap'
 
-export const PageContainerDark = styled(Container)`
+export const PageContainer = styled(Container)`
 	width: 100%;
-	height: 40vh;
+	height: auto;
 	margin-top: 2vh;
 	padding: 30px;
 	border-radius: 25px;
