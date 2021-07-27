@@ -42,6 +42,10 @@ const Home = () => {
 							I also had the privilege of being an intern at Absolute Software as a Database Operations Co-op. There, I created SQL stored procedures and performed read queries of 
 							varying complexities to provide information for internal staff.
 						</p>
+						<br/>
+						<p>
+							As a hobby, I like to learn different languages. I currently speak Cantonese, English and Japanese at an intermediate/fluent level and aiming to learn more in the future.
+						</p>
 					</div>
 				</Row>
 				<hr/>

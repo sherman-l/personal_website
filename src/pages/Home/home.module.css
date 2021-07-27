@@ -13,7 +13,7 @@
 }
 
 .aboutDiv {
-	font-size: 16pt;
+	font-size: 14pt;
 }
 
 .externalDiv {
@@ -34,7 +34,7 @@
 
 	.headshot {
 		margin-top: 2vh;
-		width: 100px;
+		width: 150px;
 	}
 }
 

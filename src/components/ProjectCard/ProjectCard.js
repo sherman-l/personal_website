@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
 			<a href={`${props.github}`} className={`${styles.linkNoStyle} text-white`}>
 				<Card.Img 
 					variant="top" 
-					src={`./project_images/${props.img}`} 
+					src={`${process.env.PUBLIC_URL}/project_images/${props.img}`} 
 					className={styles.projectCardImg}/>
 				<Card.Body>
 					<Card.Title>

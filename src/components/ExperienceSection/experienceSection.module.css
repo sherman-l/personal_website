@@ -1,0 +1,11 @@
+.experienceLogo {
+	width: 200px;
+	height: auto;
+}
+
+@media (max-width: 768px) {
+	.experienceLogoDiv {
+		text-align: center;
+	}
+}
+

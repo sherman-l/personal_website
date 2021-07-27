@@ -4,7 +4,6 @@ import Home from './pages/Home/home.js';
 import Projects from './pages/Projects/projects.js';
 import Experience from './pages/Experience/experience.js';
 import ExternalLinkSection from './components/ExternalLinkSection/ExternalLinkSection.js'
-import './App.css';
 
 
 function App() {
