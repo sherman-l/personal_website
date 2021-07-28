@@ -1,15 +1,12 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
-import { PageContainer } from '../../components/BootstrapStyled';
+import { Container, Row, Col } from 'react-bootstrap';
 import styles from './home.module.css';
 import headshotPhoto from '../../img/me.jpg';
-import githubLogo from '../../img/GitHub64px.png';
-import linkedinLogo from '../../img/LI-In-Bug.png';
 
 const Home = () => {
 	return (
 		<>
-			<PageContainer>
+			<Container className={styles.homePageContainer}>
 				<Row className="h-100 justify-content-center align-items-center no-gutters p-5">
 					<Col className="no-gutters" sm={12} md={6}>
 					<div className={styles.introductionHeader}>
@@ -49,7 +46,7 @@ const Home = () => {
 					</div>
 				</Row>
 				<hr/>
-			</PageContainer>
+			</Container>
 		</>
 	)
 }

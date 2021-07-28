@@ -2,6 +2,14 @@
 	text-align: left;
 }
 
+.homePageContainer {
+	width: 100%;
+	height: auto;
+	margin-top: 2vh;
+	padding: 30px;
+	border-radius: 25px;
+}
+
 .headshot {
 	width: 200px;
 }

@@ -1,12 +1,9 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
-import { PersonalNavbar } from '../BootstrapStyled.js';
-
-
 
 const DarkNavbar = () => {
 	return (
-		<PersonalNavbar variant="dark" bg="dark" expand="lg" sticky="top">
+		<Navbar className="h-auto" variant="dark" bg="dark" expand="lg" sticky="top">
 			<Container>
 				<Navbar.Brand href="/" >Sherman Lok</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav"/>
@@ -18,7 +15,7 @@ const DarkNavbar = () => {
 					</Nav>
 				</Navbar.Collapse>
 			</Container>
-		</PersonalNavbar>
+		</Navbar>
 	)
 }
 
