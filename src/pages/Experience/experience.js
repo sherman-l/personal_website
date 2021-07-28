@@ -19,6 +19,7 @@ const iterateExperience = () => {
 			date={experience.date} 
 			description={experience.description} 
 			duties={experience.duties}
+			technologies={experience.technologies}
 			img={experience.img}
 			alt={experience.alt}
 			url={experience.url}

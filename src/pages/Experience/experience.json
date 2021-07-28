@@ -2,11 +2,30 @@
 	{
 		"company": "Absolute Software Corporation",
 		"title": "Database Operations Co-op",
-		"date": "",
-		"description": "abcd",
-		"duties": [],
+		"date": "May 2019 - April 2020",
+		"duties": ["Created stored procedures for reporting processes using SQL Server.", "Performed requirements gathering for migrating legacy reporting tool to SQL Server Reporting Services.", "Documented work and relevant information in company JIRA and Confluence Wiki.", "Queried the SQL database to provide information requested from internal ServiceNow tickets."],
+		"technologies": "SQL Server, JIRA, Confluence, ServiceNow, SQL Server Reporting Services",
 		"img": "absolute_logo.jpg",
 		"alt": "Absolute Software Logo",
 		"url": "https://www.absolute.com/"
+	},
+	{
+		"company": "British Columbia Institute of Technology",
+		"title": "Computer Systems Technology Diploma, Data Communications",
+		"date": "Graduated June 2021 with Distinction",
+		"duties": [],
+		"technologies": "Java, Javascript, Node.JS, C, Github",
+		"img": "bcit_logo.png",
+		"alt": "BCIT Logo",
+		"url": "https://www.bcit.ca/"
+	},
+	{
+		"company": "Simon Fraser University",
+		"title": "Bachelor's of Business Administration, Accounting",
+		"date": "Graduated August 2016",
+		"duties": [],
+		"img": "sfu_logo.png",
+		"alt": "SFU Logo",
+		"url": "https://www.sfu.ca/"
 	}
 ]
