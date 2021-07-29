@@ -9,12 +9,12 @@ import ExternalLinkSection from './components/ExternalLinkSection/ExternalLinkSe
 function App() {
     return (
         <>
-    		<Router>
+    		<Router basename={`${process.env.PUBLIC_URL}`}>
             	<DarkNavbar/>
     			<Switch>
-        			<Route path={`${process.env.PUBLIC_URL}`} exact component={Home} />
-        			<Route path={`${process.env.PUBLIC_URL}/projects`} exact component={Projects} />
-        			<Route path={`${process.env.PUBLIC_URL}/experience`} exact component={Experience} />
+        			<Route path='/' exact component={Home} />
+        			<Route path='/projects' exact component={Projects} />
+        			<Route path='/experience' exact component={Experience} />
 					<Route component={NotFound} />
     			</Switch>
     		</Router>
