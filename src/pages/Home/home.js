@@ -31,8 +31,7 @@ const Home = () => {
 						<p>
 							I am a recent graduate from the Computer Systems Technology program at the British Columbia Institute of Technology. 
 							At school, I've used Javascript, Java, Node.JS and C to complete school projects. For side <a href="/projects">projects</a>, I dabbled a bit in Python 
-							to create a discord bot for me and my friends, and React for this website. I enjoy programming and the process of creating something out of
-							nothing.
+							to create a discord bot for me and my friends, and React for this website. I enjoy programming and the process of creating something solutions to problems.
 						</p>
 						<br/>
 						<p>

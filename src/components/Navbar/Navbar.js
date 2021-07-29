@@ -11,7 +11,6 @@ const DarkNavbar = () => {
 					<Nav className="me-auto">
 						<Link className="nav-link" to="/experience">Work/Education</Link>
 						<Link className="nav-link" to="/projects">Projects</Link>
-						<Link className="nav-link" to="/contact">Contact</Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Container>
