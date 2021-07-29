@@ -13,7 +13,7 @@
 		"company": "Absolute Software Corporation",
 		"title": "Database Operations Co-op",
 		"date": "May 2019 - April 2020",
-		"duties": ["Created stored procedures for reporting processes using SQL Server.", "Performed requirements gathering for migrating legacy reporting tool to SQL Server Reporting Services.", "Documented work and relevant information in company JIRA and Confluence Wiki.", "Queried the SQL database to provide information requested from internal ServiceNow tickets."],
+		"duties": ["Created stored procedures for reporting processes using SQL Server.", "Performed requirements gathering for replacing legacy reporting tool using SQL Server Reporting Services.", "Documented work and relevant information in JIRA tickets and Confluence Wiki.", "Queried the SQL database to provide information requested from internal ServiceNow tickets."],
 		"technologies": "SQL Server, JIRA, Confluence, ServiceNow, SQL Server Reporting Services",
 		"img": "absolute_logo.jpg",
 		"alt": "Absolute Software Logo",
