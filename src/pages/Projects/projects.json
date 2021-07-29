@@ -14,6 +14,14 @@
 			"technologies" : "Javascript, Node.JS, Express, HTML, CSS, JSON Web Token",					
 			"github": "https://github.com/jeffreyh93/4537_TermProject",
 			"type": "Academic Project"
+		},
+		{
+			"title": "Raspberry Pi Voting Machine",
+			"img": "voting_machine.png",
+			"description": "A voting machine which used a raspberry pi as an intermediary for receiving votes for polls. I worked on establishing Bluetooth Low Energy communication using NodeJS to allow data transfer between the phone and Raspberry Pi. I also worked and led the mobile team, which developed the mobile voting application in Flutter.",
+			"technologies": "Node.JS, Javascript, Flutter",
+			"github": "https://github.com/4981Team1",
+			"type": "Academic Project"
 		}
 ]
 

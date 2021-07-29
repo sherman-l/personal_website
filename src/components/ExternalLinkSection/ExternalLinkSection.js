@@ -14,6 +14,11 @@ const ExternalLinkSection = () => {
 					<a href="https://github.com/sherman-l">
 						<img src={githubLogo} alt="My Github Profile" className={`${styles.logo}`}/>
 					</a>
+					<div>
+						Phone Number: 778-886-9683 
+						<br/>
+						E-mail: shermanlok@hotmail.com
+					</div>
 				</div>
 			</Row>
 		</Container>

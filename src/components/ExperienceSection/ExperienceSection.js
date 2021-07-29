@@ -13,7 +13,12 @@ const ExperienceSection = (props) => {
 						<ul>
 							{iterateDuties(props.duties)}
 						</ul>
-					{printTechnologies(props)}
+					{ props.technologies &&
+						<>
+							<h5>Technologies Used</h5>
+							<p>{props.technologies}</p> 
+						</> 
+					}
 					</div>
 					
 				</Col>
@@ -41,18 +46,6 @@ const iterateDuties = (duties) => {
 		)
 	})
 	return dutyList;
-}
-
-const printTechnologies = (props) => {
-	if(props.technologies) {
-		return (
-			<>
-				<h5>Technologies Used</h5>
-				<p>{props.technologies}</p>									
-			</>
-		)
-	}
-
 }
 
 export default ExperienceSection;

@@ -12,7 +12,7 @@ const Experience = () => {
 }
 
 const iterateExperience = () => {
-	let experienceList = experienceJson.map((experience) => {
+	const experienceList = experienceJson.map((experience) => {
 		return <ExperienceSection 
 			company={experience.company} 
 			title={experience.title}

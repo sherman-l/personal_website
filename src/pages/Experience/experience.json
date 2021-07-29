@@ -1,5 +1,15 @@
 [
 	{
+		"company": "British Columbia Institute of Technology",
+		"title": "Computer Systems Technology Diploma, Data Communications",
+		"date": "Graduated June 2021 with Distinction",
+		"duties": ["Algorithms and Data Structures", "Object Oriented Programming concepts", "Teamwork/Project management"],
+		"technologies": "Java, Javascript, HTML, CSS, Node.JS, C, Git Version Control",
+		"img": "bcit_logo.png",
+		"alt": "BCIT Logo",
+		"url": "https://www.bcit.ca/"
+	},
+	{
 		"company": "Absolute Software Corporation",
 		"title": "Database Operations Co-op",
 		"date": "May 2019 - April 2020",
@@ -8,16 +18,6 @@
 		"img": "absolute_logo.jpg",
 		"alt": "Absolute Software Logo",
 		"url": "https://www.absolute.com/"
-	},
-	{
-		"company": "British Columbia Institute of Technology",
-		"title": "Computer Systems Technology Diploma, Data Communications",
-		"date": "Graduated June 2021 with Distinction",
-		"duties": [],
-		"technologies": "Java, Javascript, Node.JS, C, Github",
-		"img": "bcit_logo.png",
-		"alt": "BCIT Logo",
-		"url": "https://www.bcit.ca/"
 	},
 	{
 		"company": "Simon Fraser University",

@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from '../../components/ProjectCard/ProjectCard.js'
-import { CardColumns, Container } from 'react-bootstrap'
+import { CardColumns } from 'react-bootstrap'
 import projectJson from './projects.json'
 
 const Projects = () => {
@@ -15,7 +15,7 @@ const Projects = () => {
 }
 
 const iterateProjects = () => {
-	let projectList = projectJson.map((project) => {
+	const projectList = projectJson.map((project) => {
 		return <ProjectCard 
 			title={project.title} 
 			img={project.img} 

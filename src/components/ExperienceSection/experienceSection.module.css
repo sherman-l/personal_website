@@ -3,6 +3,10 @@
 	height: auto;
 }
 
+.experienceLogo:hover {
+	width: 210px;
+}
+
 @media (max-width: 768px) {
 	.experienceLogoDiv {
 		text-align: center;

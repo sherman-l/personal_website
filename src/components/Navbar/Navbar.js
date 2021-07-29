@@ -9,7 +9,7 @@ const DarkNavbar = () => {
 				<Navbar.Toggle aria-controls="basic-navbar-nav"/>
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="me-auto">
-						<Link className="nav-link" to="/experience">Experience</Link>
+						<Link className="nav-link" to="/experience">Work/Education</Link>
 						<Link className="nav-link" to="/projects">Projects</Link>
 						<Link className="nav-link" to="/contact">Contact</Link>
 					</Nav>
