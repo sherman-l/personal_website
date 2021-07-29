@@ -6,6 +6,8 @@ import Experience from './pages/Experience/experience.js';
 import NotFound from './pages/NotFound/NotFound.js'
 import ExternalLinkSection from './components/ExternalLinkSection/ExternalLinkSection.js'
 
+const root =  '/personal_website';
+
 
 function App() {
     return (
@@ -13,9 +15,9 @@ function App() {
     		<Router>
             	<DarkNavbar/>
     			<Switch>
-        			<Route path='/' exact component={Home} />
-        			<Route path='/projects' exact component={Projects} />
-        			<Route path='/experience' exact component={Experience} />
+        			<Route path={root} exact component={Home} />
+        			<Route path={`${root}/projects`} exact component={Projects} />
+        			<Route path={`${root}/experience`} exact component={Experience} />
 					<Route component={NotFound} />
     			</Switch>
     		</Router>
