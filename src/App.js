@@ -6,18 +6,15 @@ import Experience from './pages/Experience/experience.js';
 import NotFound from './pages/NotFound/NotFound.js'
 import ExternalLinkSection from './components/ExternalLinkSection/ExternalLinkSection.js'
 
-const root =  '/personal_website';
-
-
 function App() {
     return (
         <>
     		<Router>
             	<DarkNavbar/>
     			<Switch>
-        			<Route path={root} exact component={Home} />
-        			<Route path={`${root}/projects`} exact component={Projects} />
-        			<Route path={`${root}/experience`} exact component={Experience} />
+        			<Route path={`${process.env.PUBLIC_URL}`} exact component={Home} />
+        			<Route path={`${process.env.PUBLIC_URL}/projects`} exact component={Projects} />
+        			<Route path={`${process.env.PUBLIC_URL}/experience`} exact component={Experience} />
 					<Route component={NotFound} />
     			</Switch>
     		</Router>
