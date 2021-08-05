@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import DarkNavbar from './components/Navbar/Navbar.js';
 import Home from './pages/Home/home.js';
 import Projects from './pages/Projects/projects.js';
