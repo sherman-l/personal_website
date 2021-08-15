@@ -1,16 +1,16 @@
 import React from 'react';
 import ProjectCard from '../../components/ProjectCard/ProjectCard.js'
-import { CardColumns } from 'react-bootstrap'
+import { CardColumns, Container } from 'react-bootstrap'
 import projectJson from './projects.json'
 
 const Projects = () => {
 	return (
-		<>
+		<Container>
 			<CardColumns>
 				{iterateProjects()}
 			</CardColumns>
 			<hr/>
-		</>
+		</Container>
 	)
 }
 
@@ -23,6 +23,7 @@ const iterateProjects = () => {
 			github={project.github}
 			technologies={project.technologies}
 			type={project.type}
+			short={project.short}
 		/>
 	})
 	return projectList

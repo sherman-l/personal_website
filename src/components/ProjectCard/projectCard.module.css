@@ -1,14 +1,9 @@
 .projectCardStyle {
-	width: 50vw;
+	width: 40vw;
 	height: auto;	
 	margin: 2vh auto 0 auto;
-	transition: width 0.5s;
-	-webkit-transition: width 0.5s;
 }
 
-.projectCardStyle:hover {
-	width: 52vw;
-}
 
 .projectCardImg {
 	width: 100%;
@@ -31,3 +26,11 @@
 .linkNoStyle:active {
 	text-decoration: none;
 }
+
+@media (max-width: 768px) {
+	.projectCardStyle {
+		width: 100%;
+		font-size: 11pt;
+	}
+}
+

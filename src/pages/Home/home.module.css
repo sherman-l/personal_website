@@ -33,6 +33,10 @@
 	margin-left: 10px;
 }
 
+.projectAnchor {
+	text-decoration: none;
+}
+
 @media (max-width: 768px) {
 	.introductionHeader {
 		text-align: center;

@@ -29,8 +29,9 @@ const Home = () => {
 					</h1>
 					<div className={`text-secondary ${styles.aboutDiv}`}>
 						<p>
+							Welcome to my portfolio website built with React.js, Javascript, HTML/CSS.
 							I recently graduated from the Computer Systems Technology diploma program with distinction at the British Columbia Institute of Technology. 
-							I enjoy programming and creating solutions to problems. Through my <Link to='/projects'>projects</Link>, academic and non-academic, I've learned and used <b>Java, Javascript, Node.JS, HTML, CSS, and C</b>.
+							I enjoy programming and creating solutions to problems. Through my <Link className={styles.projectAnchor} to='/projects'>projects</Link>, academic and non-academic, I've learned and used <b>Java, Javascript, Node.JS, HTML, CSS, and C</b>.
 						</p>
 						<br/>
 						<p>

@@ -17,7 +17,7 @@ const ExternalLinkSection = () => {
 					<div>
 						Phone Number: 778-886-9683 
 						<br/>
-						E-mail: shermanlok@hotmail.com
+						E-mail: <a className={styles.projectAnchor} href="mailto: shermanlok@hotmail.com">shermanlok@hotmail.com</a>
 					</div>
 				</div>
 			</Row>

@@ -1,8 +1,18 @@
 [
 		{
+			"title": "Personal Website",
+			"img": "personal_website.png",
+			"description" : "A personal website built with React.js to showcase projects.",
+			"short" : "A personal website built with React.js to showcase projects.",
+			"technologies": "React.js, Javascript, JSX, HTML, CSS",
+			"github": "https://github.com/sherman-l/personal_website",
+			"type": "Personal Project"
+		},
+		{
 			"title": "TK Counter Discord Bot",
 			"img": "discord_banner.png",
 			"description" : "A discord bot created to help me and my friends count and rank who has team killed the most on FPS games. I came up with the idea for this bot after seeing how editing our tracking was before, which was editing a single pinned post on discord. This bot is written in Python using the discord.py module and stores team kill records for each user in a JSON file. The bot supports both English and Japanese.",
+			"short" : "A discord bot built in Python to track team kill statistics for me and my friends.",
 			"technologies": "Python, discord.py, JSON",
 			"github": "https://github.com/sherman-l/team_kill_count_bot",
 			"type": "Personal Project"
@@ -11,6 +21,7 @@
 			"title": "Mock Course Registration Website",
 			"img": "course_registration.jpg",
 			"description" : "A website created with a friend as part of our final project for our web development course. I was tasked with implementing the RESTful API endpoints using Node.JS/Express. I also implemented authentication for requests through usage of JSON Web Tokens.",
+			"short" : "A mock course registration website built with my friend using Node.JS, Javascript, HTML/CSS, Bootstrap for our final project for our web development course.",
 			"technologies" : "Javascript, Node.JS, Express, HTML, CSS, JSON Web Token",					
 			"github": "https://github.com/jeffreyh93/4537_TermProject",
 			"type": "Academic Project"
@@ -19,6 +30,7 @@
 			"title": "Raspberry Pi Voting Machine",
 			"img": "voting_machine.png",
 			"description": "A voting machine which used a raspberry pi as an intermediary for receiving votes for polls. I worked on establishing Bluetooth Low Energy communication using NodeJS to allow data transfer between the phone and Raspberry Pi. I also worked and led the mobile team, which developed the mobile voting application in Flutter.",
+			"short" : "A voting machine which gathered votes from mobile devices using Bluetooth Low Energy data transfer to a Raspberry Pi",
 			"technologies": "Node.JS, Javascript, Flutter",
 			"github": "https://github.com/4981Team1",
 			"type": "Academic Project"
